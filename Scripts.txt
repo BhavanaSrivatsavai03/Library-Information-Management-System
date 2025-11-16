@@ -1,0 +1,21 @@
+Create Database LMS;
+
+insert into Books
+
+(title, author, isbn, publication_year, category, available_copies) values ('C Programming', 'Reema Thareja', '23456789012', 2015, 'Programming', 69);
+
+
+
+insert into Members
+
+(first_name, last_name, email, join_date, membership_status) values ('Nirma Jai', 'Varma', 'nirmajai123@gmail.com', getDate(), 'student');
+
+
+insert into loans
+
+(book_id, member_id, loan_date, due_date, return_date) values (1, 1, getDate(), getDate(), getDate());
+
+
+insert into Reservations
+
+(book_id, member_id, reservation_date) values (1, 1, getDate()

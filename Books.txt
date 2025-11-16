@@ -1,0 +1,9 @@
+CREATE TABLE Books (
+    book_id INT identity(1,1) PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    isbn VARCHAR(13) UNIQUE NOT NULL,
+    publication_year INT,
+    category VARCHAR(100),
+    available_copies INT DEFAULT 0
+);
