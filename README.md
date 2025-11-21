@@ -29,16 +29,16 @@ Maintaining records for students, books, accounts, and employee management throu
 4. Add SQL Connection String to App.config:  
   Open the App.config or Web.config file in your project. Add a connection string with your database details
 
-# Project Demo - Youtube Link
 
 # Github link
+
+https://github.com/BhavanaSrivatsavai03/Library-Information-Management-System
 
 # Technical Dependencies
 Database         : Mysql  
 Operating System : Windows/Mac/Linux  
 Browser to run the webpage: Google Chrome / Mozilla Firefox  
 
-# Screenshots
 
 
 
